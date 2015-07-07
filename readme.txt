@@ -1,3 +1,5 @@
+此项目集成了spring-boot的基本业务
+
 1. 启动项目使用命令：mvn spring-boot:run
 
 2. 编写application.properties，这个配置文件是对spring-boot的一些配置，spring-boot通过此文件对集成在其中的一些框架进行配置。由我的项目结构可以看出，我有两个application.properties文件：
