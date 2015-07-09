@@ -1,7 +1,6 @@
-package com.yang.simple;
+package com.yang.simple.web;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.context.annotation.Bean;
@@ -31,7 +30,4 @@ public class SimpleController {
 		return "hello world: " + properties.getName();
 	}
 
-	public static void main(String[] args) {
-		SpringApplication.run(new Object[] { SimpleController.class }, args);
-	}
 }
